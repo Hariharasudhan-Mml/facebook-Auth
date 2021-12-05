@@ -34,7 +34,7 @@ const info=transporter.sendMail({
     <div>
     <h2>Hello ${user.name} your password change request is successfully initiated.</h2>
     <p>Click the below link to change the password</p>
-    <p><a href="http://localhost:5000/forgotpassword/${token}">click here to go</a></p>
+    <p><a href="https://fb-authentication-m.herokuapp.com/forgotpassword/${token}">click here to go</a></p>
     <p>Thank you for choosing us</p>
     <p>-FB Team</p>
     </div>

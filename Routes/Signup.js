@@ -48,7 +48,7 @@ app.post("/", async (req, res) => {
             <div>
             <h2>welcome ${req.body.name}, Thank you  for choosing our platform and keep Growing with us.</h2>
             <p>click the below link to verify your account </p>
-            <div style="background-color:lightblue;"><a style="color:hotpink" href="http://localhost:5000/verify/${token}" >Click here to verify </a></div>
+            <div style="background-color:lightblue;"><a style="color:hotpink" href="https://fb-authentication-m.herokuapp.com/verify/${token}" >Click here to verify </a></div>
           <p>Thank you </p>
           <p>-FB Team</p>
             </div>
