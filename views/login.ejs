@@ -1,0 +1,14 @@
+<%-include('../initials/header')%>
+
+<div class="input">
+  <form action="/login" method="post">
+    <input type="email" name="email" required placeholder="Enter the email"/>
+    <input type="password" name="password" required placeholder="Enter the password"/>
+    <input type="submit" value="Login">
+  </form>
+</div>
+<div class="links">
+    <a href="/" class="return-btn">Return to Home</a>
+<a href="/forgotpassword" class="forgot-password">Forgotten password?</a>
+</div>
+<%-include('../initials/footer')%>
